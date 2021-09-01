@@ -4,6 +4,16 @@ public class User {
     private int age;
     private User user;
 
+    private String mm;
+
+    public String getMm() {
+        return mm;
+    }
+
+    public void setMm(String mm) {
+        this.mm = mm;
+    }
+
     public User getUser() {
         return user;
     }
