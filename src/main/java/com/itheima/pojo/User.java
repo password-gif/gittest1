@@ -3,8 +3,17 @@ package com.itheima.pojo;
 public class User {
     private int age;
     private User user;
+    private String username;
 
     private String mm;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getMm() {
         return mm;
