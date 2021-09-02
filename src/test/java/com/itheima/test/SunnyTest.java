@@ -3,6 +3,15 @@ package com.itheima.test;
 public class SunnyTest {
 
     private int age;
+    private int add;
+
+    public int getAdd() {
+        return add;
+    }
+
+    public void setAdd(int add) {
+        this.add = add;
+    }
 
     public int getAge() {
         return age;
